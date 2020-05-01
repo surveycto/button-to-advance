@@ -13,6 +13,11 @@ function clearAnswer () {
 /* global setAnswer, goToNextField, getPluginParameter, fieldProperties */
 
 var continueKey = getPluginParameter('key')
+
+if (continueKey == null) {
+  continueKey = ' '
+}
+
 var allowBack = getPluginParameter('continue')
 var currentAnswer = fieldProperties.CURRENT_ANSWER
 

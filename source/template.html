@@ -1,2 +1,21 @@
 <div class="label default-question-text-size" id="label">{{{LABEL}}}</div>
+
+{{#MEDIAIMAGE}}
+<img src="{{MEDIAIMAGE}}" />
+{{/MEDIAIMAGE}}
+
+{{#MEDIAAUDIO}}
+<audio controls>
+    <source src="{{MEDIAAUDIO}}">
+    Your browser does not support the audio element.
+</audio>
+{{/MEDIAAUDIO}}
+
+{{#MEDIAVIDEO}}
+<video width="100%" height="*" controls>
+    <source src="{{MEDIAVIDEO}}">
+    Your browser does not support the video tag.
+</video>
+{{/MEDIAVIDEO}}
+
 <div class="hint default-hint-text-size" id="hint">{{{HINT}}}</div>

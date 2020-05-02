@@ -27,7 +27,7 @@ Use this field plug-in to move to the next field by pressing a keyboard key. By 
 
 ## How to use
 
-**To use this field plug-in as-is**, just download the [keyboard-start.fieldplugin.zip](keyboard-start.fieldplugin.zip) file from this repo, and attach it to your form.
+**To use this field plug-in as-is**, just download the [keyboard-start.fieldplugin.zip](/raw/master/keyboard-start.fieldplugin.zip) file from this repo, and attach it to your form.
 
 To create your own field plug-in using this as a template, follow these steps:
 

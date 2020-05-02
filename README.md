@@ -6,7 +6,7 @@
 
 Use this field plug-in to move to the next field by pressing a keyboard key. By default, that key is the spacebar, but it can be customized with the parameter.
 
-This field will not continue until that key is pressed. When the key is pressed, this field is given a value of '1'.
+This field has no value until that key is pressed. When the key is pressed, this field is given a value of '1'. So, if it is fine for the respondent to use the arrows to move to the next field, make the *required* value of the field blank or `no`. If the respondent must use the specified key, maek the *required* value of the field `yes`.
 
 [![Download now](extras/readme-images/download-button.png)](https://github.com/surveycto/timed-keyboard-categories/raw/master/timed-keyboard-categories.fieldplugin.zip)
 

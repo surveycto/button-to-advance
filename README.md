@@ -4,7 +4,9 @@
 
 ## Description
 
-Use this field plug-in to move to the next field by pressing a keyboard key. By default, that key is the spacebar, but it can be customized in the 
+Use this field plug-in to move to the next field by pressing a keyboard key. By default, that key is the spacebar, but it can be customized with the parameter.
+
+This field will not continue until that key is pressed. When the key is pressed, this field is given a value of '1'.
 
 [![Download now](extras/readme-images/download-button.png)](https://github.com/surveycto/timed-keyboard-categories/raw/master/timed-keyboard-categories.fieldplugin.zip)
 

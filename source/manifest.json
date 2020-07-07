@@ -1,5 +1,5 @@
 {
-	"name" : "Keyboard start",
+	"name" : "Start button",
 	"author" : "Dobility",
 	"version": "1.0.0",
 	"supportedFieldTypes": ["text"]

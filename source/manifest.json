@@ -1,5 +1,5 @@
 {
-	"name" : "Start button",
+	"name" : "Button to advance",
 	"author" : "Dobility",
 	"version": "1.0.0",
 	"supportedFieldTypes": ["text"]

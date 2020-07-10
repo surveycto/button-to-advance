@@ -1,6 +1,6 @@
 # Button to advance
 
-![Button-to-advance](extras/readme-images/button-to-advance.jpg)
+<img src="extras/readme-images/button-to-advance.jpg" alt="Button-to-advance" width="300px"/>
 
 ## Description
 

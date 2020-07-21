@@ -8,6 +8,10 @@ Use this field plug-in to move to the next field by either clicking/tapping a bu
 
 This field has no value until that key is pressed. When the key is pressed, this field is given a value of `1`. When the button is clicked, it is given a value of `2`. So, if it is fine for the respondent to swipe or use the arrows to move to the next field, make the *required* value of the field blank or `no`. If the respondent must use the specified key or a button, make the *required* value of the field `yes`.
 
+![Beta](extras/readme-images/beta-release-download.jpg)
+
+*This plug-in is currently under beta. If you you find a problem with the field plug-in, please email max@surveycto.com.*
+
 [![Download now](extras/readme-images/download-button.png)](https://github.com/surveycto/timed-keyboard-categories/raw/master/timed-keyboard-categories.fieldplugin.zip)
 
 ## Default SurveyCTO feature support

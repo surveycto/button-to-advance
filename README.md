@@ -26,7 +26,7 @@ All parameters are optional.
 |---|---|---|
 |`allowback`|Whether the respondent can return to this field. By default, if a respondent attempts to return to this field (such as by swiping back), then this field will auto-advance, and bring them back to the field they were on. This is helpful for timed tests, such as EGRA tests or implicit association tests (IAT), since if the respondent's finger slips, and they accidentally swipe back, they will be brought back so they can easily continue. If this field has a value of `1`, then the respondent can return to this field, and it will not auto-advance them.|`0`|
 |`buttontext`|Text on the start button.|`Start`|
-|`key`|Key to press to advance to the next field. Make sure it is in single quotes, and lowercase. If you would like the respondent to only be able to advance by tapping/clicking the button, give this dield a value of `'None'`.|(spacebar)|
+|`key`|Key to press to advance to the next field. Make sure it is in single quotes, and lowercase. If you would like the respondent to only be able to advance by tapping/clicking the button, give this field a value of `'None'`.|(spacebar)|
 |`nobutton`|Whether or not the button on the screen will be hidden. By default, the button will always be shown. If this parameter has a value of `1`, then the button will be hidden, and the respondent can only advance using the specified keyboard key.|`0`|
 
 ### Default SurveyCTO feature support

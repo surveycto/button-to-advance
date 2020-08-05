@@ -4,9 +4,7 @@
 
 ## Description
 
-Add this field plug-in to a *text* field to move to the next field by either clicking/tapping a button, or pressing a keyboard key. By default, that key is the spacebar, but it can be customized with the parameters.
-
-If the respondent must use the specified key or a button (as opposed to simply swiping forward), make the *required* value of the field `yes`.
+Use this field plug-in to customize the way a user moves to the next field. The user can click/tap a button, or press a certain keyboard key. This can be useful in administering timed forms/surveys, in which the user needs better control over how the timed portion starts.
 
 [![Beta](extras/readme-images/beta-release-download.jpg)](https://github.com/surveycto/button-to-advance/raw/master/button-to-advance.fieldplugin.zip)
 
@@ -14,12 +12,16 @@ If the respondent must use the specified key or a button (as opposed to simply s
 
 ### Features
 
-* **Button-based auto-advance**: Field auto-advances by clicking/tapping a button, and/or pressing the correct key on the keyboard. The keyboard key can be customized with the `key` parameter.
-* **Customizeable start button**: The on-screen button can have a customized label, and it can even be removed completely, so the field can only advance using the keyboard key. The advance-by-keyboard-key can also be disabled.
+* **Customizable `Start` button**  
+  You can customize the button label, or even hide the button completely.
+* **Customizable `Start` hotkey**  
+  By default for this field plug-in, pressing the spacebar will advance to the next field, but you can choose a different key, or disable the hotkey functionality completely.
 
 ### Data format
 
-This field has no value until the correct keyboard key is pressed, or until the on-screen button is pressed. If the field advances by using the keyboard key, the field is given a value of `1`. If the field advances by clicking/tapping the button, the field is given a value of `2`. This will change if the respondent returns to this field and uses the other method to advance instead of simply swiping forward (e.g. If they had previously used a keyboard key to auto-advance, but then they go back and click the button, the field will have a value of `2`).
+This field plug-in requires the `text` field type.
+
+This field has no value until the button or hotkey is pressed/clicked. When the hotkey is clicked, this field is given a value of `1`. When the button is pressed, it is given a value of `2`. So, if it is fine for the respondent to swipe or use the arrows to move to the next field, make the *required* value of the field blank or `no`. If the respondent *must* use the specified hotkey or button, make the *required* value of the field `yes`.
 
 ## How to use
 

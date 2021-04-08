@@ -8,7 +8,7 @@ Use this field plug-in to customize the way a user moves to the next field. The 
 
 [![Beta](extras/readme-images/beta-release-download.jpg)](https://github.com/surveycto/button-to-advance/raw/master/button-to-advance.fieldplugin.zip)
 
-*This plug-in is currently under beta. If you you find a problem with the field plug-in, please email max@surveycto.com.*
+*This plug-in is currently under beta. If you you find a problem with the field plug-in, please email support@surveycto.com.*
 
 ### Features
 

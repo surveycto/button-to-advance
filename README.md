@@ -6,9 +6,7 @@
 
 Use this field plug-in to customize the way a user moves to the next field. The user can click/tap a button, or press a certain keyboard key. This can be useful in administering timed forms/surveys, in which the user needs better control over how the timed portion starts.
 
-[![Beta](extras/readme-images/beta-release-download.jpg)](https://github.com/surveycto/button-to-advance/raw/master/button-to-advance.fieldplugin.zip)
-
-*This plug-in is currently under beta. If you you find a problem with the field plug-in, please email support@surveycto.com.*
+[![Download](extras/readme-images/download-button.png)](https://github.com/surveycto/button-to-advance/raw/master/button-to-advance.fieldplugin.zip)
 
 ### Features
 
